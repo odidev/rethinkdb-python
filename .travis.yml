@@ -1,12 +1,12 @@
 cache: pip
 dist: xenial
 language: python
+arch:
+  - arm64
+  - amd64
 sudo: required
 
 python:
-    - "2.7"
-    - "3.5"
-    - "3.6"
     - "3.7"
     - "3.8"
 
