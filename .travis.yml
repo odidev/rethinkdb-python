@@ -19,7 +19,8 @@ install:
 
 before_script:
     - make prepare
-    - make install-db
+    - uname -m
+    #- make install-db
 
 script:
     - make test-ci
